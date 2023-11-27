@@ -1,0 +1,385 @@
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Test Site</title>
+    <!-- custom -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="/assets/fontawesome-free-6.4.2-web/css/all.css"
+    />
+    <link rel="icon" href="./images/logo-5680703_640.png" type="image/x-icon" />
+    <script defer src="/assets/fontawesome-free-6.4.2-web/js/all.js"></script>
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary h5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./images/logo-5680703_1920.png"
+            alt="logo"
+            width="60"
+            height="60"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lorem2">Lorem2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lorem3">Lorem3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lorem4">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- start navbar -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" height="40">
+      <!-- data-bs-ride="carousel" scroll to left -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/coffee 1.jpg"
+            class="crd-img d-block w-100"
+            alt="coffee 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/coffee 2.jpg"
+            class="crd-img d-block w-100"
+            alt="coffee 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/coffee 3.jpg"
+            class="crd-img d-block w-100"
+            alt="coffee 3"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/coffee 4.jpg"
+            class="crd-img d-block w-100"
+            alt="coffee 4"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End Carousel -->
+
+    <!-- Main Container -->
+    <div class="container">
+      <div>
+        <h1 id="home" class="text-center text-capitalize my-5">
+          smell the coffee
+        </h1>
+        <div class="w-100 bg-dark-subtle p-5 my-5 rounded-2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consequuntur quae ea suscipit itaque minima id laborum ipsum, ipsa
+            in qui laboriosam magnam, quam voluptatem! Corrupti asperiores ipsam
+            quisquam amet eum, expedita quas, culpa distinctio iusto architecto
+            blanditiis ea deserunt unde non dolore officia eius voluptates sequi
+            inventore, provident repellendus rem perferendis voluptas? Minima
+            blanditiis iste sed optio laboriosam laborum saepe in iusto quisquam
+            soluta, similique tempora reprehenderit excepturi deleniti atque
+            placeat id est cumque. Minima laudantium natus, fugit debitis, amet
+            earum corrupti laboriosam voluptas enim accusamus sed accusantium
+            aperiam suscipit quae, cum nulla architecto placeat itaque adipisci?
+            Quisquam, praesentium beatae.
+          </p>
+          <button type="button" class="btn btn-primary btn-lg">
+            Order Yours Now!
+          </button>
+        </div>
+      </div>
+
+      <h2 id="lorem2" class="text-center fs-1 p-5 my-5">Lorem 2</h2>
+      <!-- Three cards -->
+      <div class="row">
+        <div class="col">
+          <!-- Card 1 -->
+          <div class="card">
+            <img
+              src="./images/coffee 3.jpg"
+              class="card-img-top"
+              alt="coffee 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Click Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- Card 1 -->
+          <div class="card">
+            <img
+              src="./images/coffee 3.jpg"
+              class="card-img-top"
+              alt="coffee 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Click Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- Card 1 -->
+          <div class="card">
+            <img
+              src="./images/coffee 3.jpg"
+              class="card-img-top"
+              alt="coffee 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Click Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lorem 3 start -->
+      <!-- Six cards -->
+      <!-- <div class=""> -->
+      <h2 id="lorem3" class="text-center fs-1 p-5 my-5">Lorem 3</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-6">
+          <div class="card h-100">
+            <img
+              src="./images/yellow coffee.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card h-100">
+            <img
+              src="./images/yellow coffee.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card h-100">
+            <img
+              src="./images/yellow coffee.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card h-100">
+            <img
+              src="./images/yellow coffee.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card h-100">
+            <img
+              src="./images/yellow coffee.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card h-100">
+            <img
+              src="./images/yellow coffee.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- End Lorem 3 -->
+
+      <!-- Start Contact Us -->
+      <div class="bg-secondary-subtle p-5 my-5 text-center fs-4">
+        <h2 id="lorem4" class="text-center fs-1 my-5">Contact Us</h2>
+
+        <form>
+          <div class="row mb-3">
+            <label for="name" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name" />
+            </div>
+
+            <label for="inputEmail3" class="col-sm-2 col-form-label"
+              >Email</label
+            >
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <!-- End Contact Us -->
+    </div>
+    <!-- End Main Container -->
+    <!-- back to top button -->
+    <button
+      type="button"
+      class="btn btn-primary btn-floating btn-lg"
+      id="btn-back-to-top"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- back to top button -->
+    <footer class="bg-dark p-5 text-white text-center">
+      <p>This is the footer</p>
+      <p>Copyright &copy. All rights reserved</p>
+      <p>Lorem ipsum dolor sit.</p>
+    </footer>
+    <!-- bootstrap javascript -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+>>>>>>> 25da42f (first commit)
